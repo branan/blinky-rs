@@ -1,0 +1,11 @@
+[package]
+name = "blinky"
+version = "0.1.0"
+authors = ["Branan Riley <branan@puppet.com>"]
+build = "build.rs"
+
+[dependencies]
+teensy = { path = "./teensy" }
+
+[build-dependencies]
+rustc-serialize = "0.3.19"
